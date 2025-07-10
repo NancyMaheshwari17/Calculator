@@ -49,14 +49,6 @@ This is a simple text-based calculator written in Java using the `Scanner` class
    12.0
    ```
 
-## ❗ Important Notes
-
-- Make sure to type the operation names **exactly** as shown: `Add`, `Subtract`, `Multiply`, `Divide`, or `Modules`.
-- Currently, there is **no input validation**. Any wrong operation name will result in no output.
-- There is a **bug** in the `Subtract` case: it adds instead of subtracting. You can fix it by changing:
-  ```java
-  float Subtract = num1 - num2;
-  ```
 
 ## 📚 Requirements
 
