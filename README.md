@@ -48,8 +48,6 @@ This is a simple text-based calculator written in Java using the `Scanner` class
    Enter Number 2: 7
    12.0
    ```
-
-
 ## 📚 Requirements
 
 - Java Development Kit (JDK)
