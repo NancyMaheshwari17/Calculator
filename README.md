@@ -1,51 +1,68 @@
-# 📟 Java Calculator
+# 🧮 Java Text-Based Calculator
 
-This is a simple calculator application written in Java. It performs basic arithmetic operations like addition, subtraction, multiplication, and division based on user input.
+This is a simple text-based calculator written in Java using the `Scanner` class. It performs basic arithmetic operations based on user input: addition, subtraction, multiplication, division, and modulus.
 
-## 🚀 Features
+## ✨ Features
 
-- Basic operations: `+`, `-`, `*`, `/`
-- Takes two numbers as input
-- Allows the user to select an operation
-- Outputs the result
-- Handles division by zero
-- Uses switch-case for operation control
+- User-friendly console interface
+- Supports the following operations (by name):
+  - Add
+  - Subtract
+  - Multiply
+  - Divide
+  - Modules (modulus)
+- Takes two floating-point numbers as input
+- Uses `switch-case` on **operation name strings**
 
-## 📁 File Structure
+## 🗂️ Files
 
-- `calculator.java` – The main Java file containing the code for the calculator program.
+- `calculator.java` – Main Java source file for the calculator.
 
-## 🔧 How to Run
+## 🖥️ How to Run
 
-1. **Compile the Java file:**
+1. **Open terminal** and navigate to the directory where `calculator.java` is saved.
 
+2. **Compile the Java code:**
    ```bash
    javac calculator.java
-Run the compiled program
+   ```
 
-2. Follow the prompts:
+3. **Run the compiled program:**
+   ```bash
+   java calculator
+   ```
 
-Enter the first number.
+4. **Example Run:**
+   ```
+   CALCULATOR!!
 
-Enter the operator (+, -, *, or /).
+   Operations:
+   1.Add
+   2.Subtract
+   3.Multiply
+   4.Divide!
+   5.Modules
 
-Enter the second number.
+   Enter any Operation name: Add
+   Enter Number 1: 5
+   Enter Number 2: 7
+   12.0
+   ```
 
-View the result!
+## ❗ Important Notes
 
-🛠 Requirements
-Java JDK installed on your system
+- Make sure to type the operation names **exactly** as shown: `Add`, `Subtract`, `Multiply`, `Divide`, or `Modules`.
+- Currently, there is **no input validation**. Any wrong operation name will result in no output.
+- There is a **bug** in the `Subtract` case: it adds instead of subtracting. You can fix it by changing:
+  ```java
+  float Subtract = num1 - num2;
+  ```
 
-Terminal or command prompt to compile and run the program
+## 📚 Requirements
 
-📌 Example
-text
-Copy
-Edit
-Enter first number: 10
-Enter operator (+, -, *, /): *
-Enter second number: 5
-Result: 50
+- Java Development Kit (JDK)
+- Basic terminal/command line usage
 
-📃 License
-Nancy Maheshwari
+---
+
+🛠️ **Created for learning and practice.**
