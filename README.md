@@ -23,7 +23,7 @@ This is a simple calculator application written in Java. It performs basic arith
    javac calculator.java
 Run the compiled program
 
-Follow the prompts:
+2. Follow the prompts:
 
 Enter the first number.
 
