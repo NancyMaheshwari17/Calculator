@@ -1,4 +1,3 @@
-/*
 import java.util.*;
 import  java.util.Scanner;
 
@@ -29,7 +28,7 @@ public class calculator
 
         case "Subtract":
         {
-          float Subtract=num1+num2;
+          float Subtract=num1-num2;
           System.out.println(Subtract);                                                    //using operator names
           break;
         }
@@ -62,73 +61,8 @@ public class calculator
     }
   }
 }
-*/
 
 
 
-
-
-
-import java.util.Scanner;
-
-public class calculator
-{
-  public static void main(String[] arg)
-  {
-    Scanner sc=new Scanner(System.in);
-    System.out.println("CALCULATOR!!\n\nOperations:\n1.+\n2.-\n3.*\n4./\n5.%\n");
-    System.out.println("Enter any Symbol:");
-    String choice=sc.nextLine();
-
-    System.out.println("\nEnter Number 1:");
-    float num1=sc.nextFloat();
-
-    System.out.println("Enter Number 2:");
-    float num2=sc.nextFloat();
-
-    switch(choice)
-    {
-        case "+" :
-        {
-          float add=num1+num2;
-          System.out.println(add);
-          break;
-        }
-
-        case "-":
-        {
-          float Subtract=num1+num2;
-          System.out.println(Subtract);                                                     //using operator sign
-          break;
-        }
-
-        case "*":
-        {
-            float Multiply=num1*num2;
-            System.out.println(Multiply);
-            break;
-        }
-
-        case "/":
-        {
-            float Divide=num1/num2;
-            System.out.println(Divide);
-            break;
-        }
-
-        case "%":
-        {
-            float Module=num1%num2;
-            System.out.println(Module);
-            break;
-        }
-
-        default:
-        {
-            System.out.println("Error !!");
-        }
-    }
-  }
-}
 
 
